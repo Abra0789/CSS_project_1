@@ -1,0 +1,175 @@
+/*========== Responsive (320px - 375px) ==========*/
+
+@media  (min-width:320px) and (max-width:375px){
+
+    /* Navbar */
+
+    header .navbar .logo{
+        height:40px;
+    }
+
+    header .navbar .navbar-nav{
+        margin-left:0;
+        text-align:center;
+        margin-top:20px;
+    }
+
+    header .navbar .nav-item{
+        margin-bottom:10px;
+    }
+
+    header .navbar .nav-link{
+        font-size:18px;
+    }
+
+    header .navbar .btn{
+        width:100%;
+        margin-top:15px;
+    }
+
+    /* Banner */
+
+    #banner{
+        padding:70px 0;
+        text-align:center;
+    }
+
+    #banner h1{
+        font-size:34px;
+        line-height:45px;
+    }
+
+    #banner p{
+        font-size:16px;
+        line-height:28px;
+        margin-bottom:30px;
+    }
+
+    #banner .bannerbtn{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    #banner .bannerbtn button{
+        width:180px;
+    }
+
+    /* About */
+
+    #aboutSection .aboutarea{
+        flex-direction:column;
+        margin-top:60px;
+        margin-bottom:60px;
+        padding:20px;
+    }
+
+    #aboutSection .about_Text{
+        text-align:center;
+    }
+
+    #aboutSection .about_Text h4{
+        font-size:22px;
+    }
+
+    #aboutSection .about_Text h2{
+        font-size:28px;
+    }
+
+    #aboutSection .about_Text p{
+        font-size:16px;
+        line-height:28px;
+    }
+
+    /* Dish */
+
+    #dishSection .title{
+        margin-bottom:40px;
+    }
+
+    #dishSection .title h4{
+        font-size:22px;
+    }
+
+    #dishSection .title h2{
+        font-size:28px;
+    }
+
+    #dishSection .icon img{
+        height:220px;
+    }
+
+    #dishSection .item h4{
+        font-size:24px;
+    }
+
+    #dishSection .item p{
+        font-size:16px;
+    }
+
+    /* Customer Review */
+
+    #customerRev{
+        padding:70px 0;
+    }
+
+    #customerRev .title h4{
+        font-size:22px;
+    }
+
+    #customerRev .title h2{
+        font-size:28px;
+    }
+
+    #customerRev .reviewItem{
+        margin-bottom:25px;
+    }
+
+    #customerRev .reviewItem img{
+        width:90px;
+        height:90px;
+    }
+
+    #customerRev .reviewItem h4{
+        font-size:22px;
+    }
+
+    #customerRev .reviewItem h5{
+        font-size:15px;
+    }
+
+    #customerRev .reviewItem p{
+        font-size:15px;
+    }
+
+    /* Footer */
+
+    #footer{
+        padding:50px 0;
+    }
+
+    #footer .footerRow{
+        flex-direction:column;
+        gap:35px;
+    }
+
+    #footer .footerLogo{
+        width:180px;
+    }
+
+    #footer .footerCol{
+        text-align:center;
+    }
+
+    #footer .footerCol h3{
+        font-size:26px;
+    }
+
+    #footer .footerCol p{
+        font-size:16px;
+    }
+
+    #footer iframe{
+        height:200px;
+    }
+
+}
